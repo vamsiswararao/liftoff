@@ -29,7 +29,7 @@ class Home extends Component {
 
   bookDetails = async () => {
     this.setState({apiStatus: apiStatusConstants.inProgress})
-    const apiUrl = `https://apis.ccbp.in/book-hub/books`
+    const apiUrl = ``
     const options = {
       method: 'GET',
     }
